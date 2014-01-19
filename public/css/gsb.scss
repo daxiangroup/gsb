@@ -1,0 +1,64 @@
+/*****[ General ]**************************************************************/
+*:focus {
+    outline: none;
+    border: none;
+}
+.wrapper {
+    width: 940px;
+}
+
+.page-header h2 {
+    line-height: 20px;
+}
+
+/******[ Forms ]***************************************************************/
+.form-row {
+    margin-bottom: 15px;
+
+    label {
+        margin-top: 3px;
+    }
+}
+
+.control-row {
+    padding-top: 15px;
+    border-top: solid 1px #eee;
+}
+
+/*****[ Navigation ]***********************************************************/
+div[role="navigation"] {
+    border-bottom: solid 1px #eee;
+
+    ul {
+        clear: both;
+        overflow: auto;
+        list-style-type: none;
+
+        li {
+            float: left;
+            margin: 0 40px 0 -20px;
+        }
+    }
+}
+
+.container {
+    border: solid 1px #c00;
+}
+
+/*****[ Listing ]**************************************************************/
+.listing {
+    outline: solid 1px #0c0;
+    margin-bottom: 20px;
+
+    .lbl {
+        float: left;
+        width: 120px;
+        font-weight: bold;
+    }
+
+    .fld {
+        clear: right;
+    }
+}
+
+

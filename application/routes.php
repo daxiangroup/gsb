@@ -32,10 +32,12 @@
 |
 */
 
-Route::get('/', function()
+Route::get('/logout', array('as' => 'logout', 'uses' => 'login::login@logout'));
+
+Route::get('/', array('as' => 'home', function()
 {
 	return View::make('home.index');
-});
+}));
 
 /*
 |--------------------------------------------------------------------------

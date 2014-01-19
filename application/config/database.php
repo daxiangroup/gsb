@@ -14,7 +14,7 @@ return array(
 	|
 	*/
 
-	'profile' => false,
+	'profile' => true,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -42,7 +42,7 @@ return array(
 	|
 	*/
 
-	'default' => 'mysql',
+	'default' => 'app_r',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -67,12 +67,22 @@ return array(
 			'prefix'   => '',
 		),
 
-		'mysql' => array(
+		'app_r' => array(
 			'driver'   => 'mysql',
 			'host'     => '127.0.0.1',
-			'database' => 'database',
-			'username' => 'root',
-			'password' => '',
+			'database' => 'gsb',
+			'username' => 'app_r',
+			'password' => 'r34d_1t',
+			'charset'  => 'utf8',
+			'prefix'   => '',
+		),
+
+		'app_w' => array(
+			'driver'   => 'mysql',
+			'host'     => '127.0.0.1',
+			'database' => 'gsb',
+			'username' => 'app_w',
+			'password' => 'wr1t3_1t',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 		),
